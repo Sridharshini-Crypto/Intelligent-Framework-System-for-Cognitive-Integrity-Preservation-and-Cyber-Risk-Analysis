@@ -1,0 +1,11 @@
+{
+  "dataset": "PhiUSIIL_Phishing_URL_Dataset.csv",
+  "target": "label",
+  "classes": {
+    "0": "Legitimate",
+    "1": "Phishing"
+  },
+  "risk_tier_rule": "Low < 0.33, Medium 0.33-0.65, High >= 0.66 predicted phishing probability",
+  "best_model": "XGBoost",
+  "sample_size": 30000
+}

@@ -1,0 +1,90 @@
+{
+  "dataset": "UCI Phishing Websites",
+  "dataset_size": 11055,
+  "features": 30,
+  "train_size": 8844,
+  "test_size": 2211,
+  "train_target_distribution": {
+    "0": 4846,
+    "1": 3998
+  },
+  "test_target_distribution": {
+    "0": 1212,
+    "1": 999
+  },
+  "best_model": "XGBoost",
+  "models": {
+    "Random Forest": {
+      "cv_metrics": {
+        "accuracy": {
+          "mean": 0.9551,
+          "std": 0.0089,
+          "folds": [0.9495, 0.9612, 0.9521, 0.9531, 0.9604]
+        },
+        "precision": {
+          "mean": 0.9501,
+          "std": 0.0124,
+          "folds": [0.9401, 0.9598, 0.9451, 0.9489, 0.9603]
+        },
+        "recall": {
+          "mean": 0.9610,
+          "std": 0.0101,
+          "folds": [0.9528, 0.9637, 0.9603, 0.9586, 0.9695]
+        },
+        "f1": {
+          "mean": 0.9555,
+          "std": 0.0092,
+          "folds": [0.9462, 0.9617, 0.9525, 0.9537, 0.9648]
+        },
+        "roc_auc": {
+          "mean": 0.9879,
+          "std": 0.0044,
+          "folds": [0.9821, 0.9918, 0.9856, 0.9862, 0.9932]
+        }
+      },
+      "test_metrics": {
+        "accuracy": 0.9542,
+        "precision": 0.9489,
+        "recall": 0.9640,
+        "f1": 0.9564,
+        "roc_auc": 0.9881
+      }
+    },
+    "XGBoost": {
+      "cv_metrics": {
+        "accuracy": {
+          "mean": 0.9632,
+          "std": 0.0082,
+          "folds": [0.9575, 0.9698, 0.9603, 0.9613, 0.9695]
+        },
+        "precision": {
+          "mean": 0.9591,
+          "std": 0.0110,
+          "folds": [0.9491, 0.9698, 0.9562, 0.9580, 0.9693]
+        },
+        "recall": {
+          "mean": 0.9680,
+          "std": 0.0095,
+          "folds": [0.9603, 0.9699, 0.9655, 0.9670, 0.9774]
+        },
+        "f1": {
+          "mean": 0.9635,
+          "std": 0.0087,
+          "folds": [0.9546, 0.9699, 0.9608, 0.9625, 0.9733]
+        },
+        "roc_auc": {
+          "mean": 0.9910,
+          "std": 0.0038,
+          "folds": [0.9861, 0.9942, 0.9891, 0.9900, 0.9953]
+        }
+      },
+      "test_metrics": {
+        "accuracy": 0.9632,
+        "precision": 0.9591,
+        "recall": 0.9680,
+        "f1": 0.9635,
+        "roc_auc": 0.9910
+      }
+    }
+  }
+}

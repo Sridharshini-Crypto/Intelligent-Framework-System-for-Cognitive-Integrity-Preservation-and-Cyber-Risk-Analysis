@@ -1,0 +1,16 @@
+{
+  "target": "clicked_link",
+  "positive_class": "yes",
+  "feature_policy": "clicked_link is excluded from all model inputs",
+  "models": [
+    "Random Forest",
+    "XGBoost",
+    "SVM"
+  ],
+  "best_model": "XGBoost",
+  "class_balance": {
+    "no_click": 2479,
+    "click": 2521
+  },
+  "random_state": 42
+}

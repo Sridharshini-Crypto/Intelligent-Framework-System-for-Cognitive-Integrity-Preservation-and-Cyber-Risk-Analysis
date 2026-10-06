@@ -1,0 +1,20 @@
+{
+  "dataset": "UCI Phishing Websites",
+  "source": "https://archive.ics.uci.edu/dataset/327/phishing+websites",
+  "samples": 11055,
+  "features": 30,
+  "target_classes": [
+    "Legitimate",
+    "Phishing"
+  ],
+  "evaluation_strategy": "Stratified 80/20 split + 5-fold CV",
+  "models_used": [
+    "Random Forest",
+    "XGBoost"
+  ],
+  "best_model": "XGBoost",
+  "no_target_leakage": true,
+  "no_identifier_leakage": true,
+  "scaling": "StandardScaler",
+  "seed": 42
+}

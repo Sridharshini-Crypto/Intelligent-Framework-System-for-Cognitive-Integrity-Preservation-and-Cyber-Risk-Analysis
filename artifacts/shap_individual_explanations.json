@@ -1,0 +1,306 @@
+{
+  "high_risk_phishing": [
+    {
+      "phishing_probability": 0.9978128671646118,
+      "top_features": [
+        {
+          "name": "SSLfinal_State",
+          "shap_value": 1.8652876615524292,
+          "feature_value": 1.0
+        },
+        {
+          "name": "SFH",
+          "shap_value": 1.5559875965118408,
+          "feature_value": 1.0
+        },
+        {
+          "name": "URL_of_Anchor",
+          "shap_value": 0.7054400444030762,
+          "feature_value": 1.0
+        },
+        {
+          "name": "web_traffic",
+          "shap_value": 0.6883331537246704,
+          "feature_value": 1.0
+        },
+        {
+          "name": "Links_in_tags",
+          "shap_value": -0.6050941944122314,
+          "feature_value": -1.0
+        }
+      ]
+    },
+    {
+      "phishing_probability": 0.9984616041183472,
+      "top_features": [
+        {
+          "name": "SSLfinal_State",
+          "shap_value": 2.034102439880371,
+          "feature_value": 1.0
+        },
+        {
+          "name": "SFH",
+          "shap_value": 1.4327428340911865,
+          "feature_value": 1.0
+        },
+        {
+          "name": "URL_of_Anchor",
+          "shap_value": 0.7117627859115601,
+          "feature_value": 1.0
+        },
+        {
+          "name": "web_traffic",
+          "shap_value": 0.5976165533065796,
+          "feature_value": 1.0
+        },
+        {
+          "name": "Links_in_tags",
+          "shap_value": -0.5515905022621155,
+          "feature_value": -1.0
+        }
+      ]
+    },
+    {
+      "phishing_probability": 0.9984616041183472,
+      "top_features": [
+        {
+          "name": "SSLfinal_State",
+          "shap_value": 2.034102439880371,
+          "feature_value": 1.0
+        },
+        {
+          "name": "SFH",
+          "shap_value": 1.4327428340911865,
+          "feature_value": 1.0
+        },
+        {
+          "name": "URL_of_Anchor",
+          "shap_value": 0.7117627859115601,
+          "feature_value": 1.0
+        },
+        {
+          "name": "web_traffic",
+          "shap_value": 0.5976165533065796,
+          "feature_value": 1.0
+        },
+        {
+          "name": "Links_in_tags",
+          "shap_value": -0.5515905022621155,
+          "feature_value": -1.0
+        }
+      ]
+    },
+    {
+      "phishing_probability": 0.9984616041183472,
+      "top_features": [
+        {
+          "name": "SSLfinal_State",
+          "shap_value": 2.034102439880371,
+          "feature_value": 1.0
+        },
+        {
+          "name": "SFH",
+          "shap_value": 1.4327428340911865,
+          "feature_value": 1.0
+        },
+        {
+          "name": "URL_of_Anchor",
+          "shap_value": 0.7117627859115601,
+          "feature_value": 1.0
+        },
+        {
+          "name": "web_traffic",
+          "shap_value": 0.5976165533065796,
+          "feature_value": 1.0
+        },
+        {
+          "name": "Links_in_tags",
+          "shap_value": -0.5515905022621155,
+          "feature_value": -1.0
+        }
+      ]
+    },
+    {
+      "phishing_probability": 0.9984616041183472,
+      "top_features": [
+        {
+          "name": "SSLfinal_State",
+          "shap_value": 2.034102439880371,
+          "feature_value": 1.0
+        },
+        {
+          "name": "SFH",
+          "shap_value": 1.4327428340911865,
+          "feature_value": 1.0
+        },
+        {
+          "name": "URL_of_Anchor",
+          "shap_value": 0.7117627859115601,
+          "feature_value": 1.0
+        },
+        {
+          "name": "web_traffic",
+          "shap_value": 0.5976165533065796,
+          "feature_value": 1.0
+        },
+        {
+          "name": "Links_in_tags",
+          "shap_value": -0.5515905022621155,
+          "feature_value": -1.0
+        }
+      ]
+    }
+  ],
+  "low_risk_legitimate": [
+    {
+      "phishing_probability": 6.12591247772798e-05,
+      "top_features": [
+        {
+          "name": "URL_of_Anchor",
+          "shap_value": -3.7413554191589355,
+          "feature_value": 0.0
+        },
+        {
+          "name": "SSLfinal_State",
+          "shap_value": -2.1737520694732666,
+          "feature_value": 0.0
+        },
+        {
+          "name": "DNSRecord",
+          "shap_value": -0.73136305809021,
+          "feature_value": -1.0
+        },
+        {
+          "name": "web_traffic",
+          "shap_value": -0.6945123672485352,
+          "feature_value": 0.0
+        },
+        {
+          "name": "double_slash_redirecting",
+          "shap_value": -0.5274727940559387,
+          "feature_value": -1.0
+        }
+      ]
+    },
+    {
+      "phishing_probability": 6.12591247772798e-05,
+      "top_features": [
+        {
+          "name": "URL_of_Anchor",
+          "shap_value": -3.7413554191589355,
+          "feature_value": 0.0
+        },
+        {
+          "name": "SSLfinal_State",
+          "shap_value": -2.1737520694732666,
+          "feature_value": 0.0
+        },
+        {
+          "name": "DNSRecord",
+          "shap_value": -0.73136305809021,
+          "feature_value": -1.0
+        },
+        {
+          "name": "web_traffic",
+          "shap_value": -0.6945123672485352,
+          "feature_value": 0.0
+        },
+        {
+          "name": "double_slash_redirecting",
+          "shap_value": -0.5274727940559387,
+          "feature_value": -1.0
+        }
+      ]
+    },
+    {
+      "phishing_probability": 6.37880657450296e-05,
+      "top_features": [
+        {
+          "name": "URL_of_Anchor",
+          "shap_value": -3.89149808883667,
+          "feature_value": -1.0
+        },
+        {
+          "name": "SSLfinal_State",
+          "shap_value": -2.241956949234009,
+          "feature_value": 0.0
+        },
+        {
+          "name": "having_IP_Address",
+          "shap_value": -0.8620831966400146,
+          "feature_value": -1.0
+        },
+        {
+          "name": "having_Sub_Domain",
+          "shap_value": -0.6643478870391846,
+          "feature_value": 0.0
+        },
+        {
+          "name": "Google_Index",
+          "shap_value": -0.6561325788497925,
+          "feature_value": -1.0
+        }
+      ]
+    },
+    {
+      "phishing_probability": 6.37880657450296e-05,
+      "top_features": [
+        {
+          "name": "URL_of_Anchor",
+          "shap_value": -3.89149808883667,
+          "feature_value": -1.0
+        },
+        {
+          "name": "SSLfinal_State",
+          "shap_value": -2.241956949234009,
+          "feature_value": 0.0
+        },
+        {
+          "name": "having_IP_Address",
+          "shap_value": -0.8620831966400146,
+          "feature_value": -1.0
+        },
+        {
+          "name": "having_Sub_Domain",
+          "shap_value": -0.6643478870391846,
+          "feature_value": 0.0
+        },
+        {
+          "name": "Google_Index",
+          "shap_value": -0.6561325788497925,
+          "feature_value": -1.0
+        }
+      ]
+    },
+    {
+      "phishing_probability": 7.378662121482193e-05,
+      "top_features": [
+        {
+          "name": "URL_of_Anchor",
+          "shap_value": -3.793140411376953,
+          "feature_value": 0.0
+        },
+        {
+          "name": "SSLfinal_State",
+          "shap_value": -2.356501817703247,
+          "feature_value": 0.0
+        },
+        {
+          "name": "having_IP_Address",
+          "shap_value": -0.801971435546875,
+          "feature_value": -1.0
+        },
+        {
+          "name": "Google_Index",
+          "shap_value": -0.6703840494155884,
+          "feature_value": -1.0
+        },
+        {
+          "name": "having_Sub_Domain",
+          "shap_value": -0.6112217307090759,
+          "feature_value": 0.0
+        }
+      ]
+    }
+  ]
+}

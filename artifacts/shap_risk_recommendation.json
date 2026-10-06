@@ -1,0 +1,33 @@
+{
+  "risk_level": "Elevated",
+  "recommendation": "Do not rush. Inspect the sender and link destination before continuing.",
+  "key_risk_factors": [
+    {
+      "feature": "num__hover_time_ms",
+      "direction": "increases risk",
+      "shap_value": 0.0892
+    },
+    {
+      "feature": "num__received_hour",
+      "direction": "increases risk",
+      "shap_value": 0.0536
+    },
+    {
+      "feature": "cat__browser_used_Safari",
+      "direction": "reduces risk",
+      "shap_value": -0.0144
+    },
+    {
+      "feature": "cat__browser_used_Firefox",
+      "direction": "increases risk",
+      "shap_value": 0.0118
+    },
+    {
+      "feature": "cat__domain_tld_biz",
+      "direction": "increases risk",
+      "shap_value": 0.0086
+    }
+  ],
+  "profile_index": 3597,
+  "click_risk_probability": 0.6782
+}

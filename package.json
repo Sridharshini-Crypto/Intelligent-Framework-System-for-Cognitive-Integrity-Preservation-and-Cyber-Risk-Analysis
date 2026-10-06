@@ -1,0 +1,7 @@
+{
+  "name": "mindtrace-ai-cips",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MindTraceAI - Cognitive Integrity Preservation System",
+  "scripts": { "start": "node server.js" }
+}

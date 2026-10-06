@@ -1,0 +1,8 @@
+              precision    recall  f1-score   support
+
+    No click       0.49      0.45      0.47       496
+       Click       0.50      0.55      0.52       504
+
+    accuracy                           0.50      1000
+   macro avg       0.50      0.50      0.50      1000
+weighted avg       0.50      0.50      0.50      1000
